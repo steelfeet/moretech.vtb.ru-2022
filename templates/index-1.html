@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Поисковая система и агрегатор новостей образовательных учреждений</title>
+
+        <script src="jquery-3.6.0.min.js"></script>
+      </head>
+<body>
+<center>
+
+<img src="header.jpg" width="1000">
+<h1>Поисковая система и агрегатор новостей образовательных учреждений</h1>
+
+
+
+<table width=1000 align="center" cellspacing="10" border="0">
+   <tr align="center" valign="top">
+      <td align="left" width="50%">
+         <center>
+         <h2 align="center">Поиск по сайтам</h2>
+         <form action="index.wsgi" action="get">
+            <p><input type="input" name="key_phrase" style="width: 80%;" value="%key_phrase%"><Br>
+            <p><input type="submit" value="Поиск"></p>
+         </form> 
+         <div style="text-align: left;">
+            Вы искали: <b>%key_phrase%</b>%suggest%
+            <p>%search_str%</p>
+         </div>
+      </center>    
+      </td>
+      <td align="left" width="50%">
+         <h2 align="center">Новости Хакатонов</h2>
+         %hacks_str%
+      </td>
+
+   </tr>
+</table>
+
+</center>
+
+
+</body>
+</html>

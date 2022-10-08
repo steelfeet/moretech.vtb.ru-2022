@@ -1,0 +1,28 @@
+User-agent: Yandex
+Disallow: /*_openstat
+Disallow: /*from=adwords
+Disallow: /*reklama
+Disallow: /templates/
+Disallow: /clear/
+Disallow: /doctxt/
+Disallow: /html/
+
+User-agent: Googlebot
+Disallow: /*_openstat
+Disallow: /*from=adwords
+Disallow: /*reklama
+Disallow: /templates/
+Disallow: /clear/
+Disallow: /doctxt/
+Disallow: /html/
+
+User-agent: *
+Disallow: /templates/
+Disallow: /clear/
+Disallow: /doctxt/
+Disallow: /comments_fb.php
+Disallow: /html/
+Disallow: /data/
+Disallow: /reimg/
+Disallow: /img/
+Disallow: /log/

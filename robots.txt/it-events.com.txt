@@ -1,0 +1,8 @@
+User-Agent: Yandex
+Disallow: 
+Host: it-events.com
+Sitemap: https://it-events.com/sitemap.xml
+
+User-Agent: *
+Disallow:
+Sitemap: https://it-events.com/sitemap.xml
